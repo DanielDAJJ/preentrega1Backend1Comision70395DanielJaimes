@@ -1,0 +1,23 @@
+[
+  {
+    "id": "e87ed664-8416-4077-8b0c-2199fd529027",
+    "title": "Diseño Editorial",
+    "description": "Creación de revistas, libros, catálogos o folletos con un diseño atractivo y funcional.",
+    "price": "150.00",
+    "thumbnail": [],
+    "code": "DE001",
+    "stock": 54,
+    "status": true,
+    "category": "Diseño Editorial"
+  },
+  {
+    "id": "a28c59b2-0816-4d5a-b31f-0d940d68aa62",
+    "title": "Diseño de Animaciones",
+    "description": "Animaciones gráficas y motion graphics para videos promocionales y redes sociales.",
+    "price": 200,
+    "code": "DA008",
+    "stock": 12,
+    "status": true,
+    "category": "Diseño de Animaciones"
+  }
+]
