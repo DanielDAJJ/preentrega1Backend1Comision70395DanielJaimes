@@ -6,6 +6,14 @@ const cartManager = new CartManager();
 const productManager = new ProductManager();
 const router = Router();
 
+router.get('/', (req, res) => {
+    try {
+        const carts = cartManager.getCarts();
+        res.status(200).send(carts);
+    } catch (error) {
+        console.log(error);
+    }
+})
 router.post('/', async(req, res) => {
     try {
         const cart = await cartManager.createCart();
